@@ -6,7 +6,6 @@ const location_template = document.querySelector('#location-template').innerHTML
 const sidebar_template = document.querySelector('#sidebar-template').innerHTML;
 
 const {username, room} = Qs.parse(location.search, {ignoreQueryPrefix: true});
-
 const autoscroll = () => {
 	// new message element
 	const newMessage = messages_div.lastElementChild;
